@@ -5,7 +5,7 @@ def read_and_write_file():
     """
     try:
         # Prompt the user for the input filename
-        input_filename = input("Enter the name of the input file (e.g., input.txt): ")
+        input_filename = input("Enter the name of the input file: ")
 
         # Attempt to open and read the input file
         with open(input_filename, 'r') as infile:
